@@ -1,6 +1,6 @@
 var http = require('http');
 var server = http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
   //res.end(JSON.stringify(process.env));
   res.end('Hello World\n');
 });
@@ -13,3 +13,4 @@ console.log('Server running at http://127.0.0.1:3000/');
   process.exit();
 },15000);
 */
+

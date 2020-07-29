@@ -1,6 +1,6 @@
 {
   "name": "node-windows",
-  "version": "1.0.0-beta.4",
+  "version": "1.0.0-jee.1",
   "description": "Support for Windows services, event logging, UAC, and several helper methods for interacting with the OS.",
   "keywords": [
     "ngn",
@@ -15,7 +15,12 @@
     "task"
   ],
   "author": "Corey Butler <corey@coreybutler.com>",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
   "main": "lib/node-windows.js",
   "preferGlobal": true,
   "dependencies": {

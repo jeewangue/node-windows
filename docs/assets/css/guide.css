@@ -1,5 +1,5 @@
 .console {
-	-moz-border-radius: 20px;
+  -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   -khtml-border-radius: 20px;
   behavior: url(/assets/css/border-radius.htc);
